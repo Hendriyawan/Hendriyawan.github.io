@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Bahari Yogyakarta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #2e8b57;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .menu {
+            background-color: #ffffff;
+            padding: 10px;
+            width: 30%;
+            height: 100vh;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu li {
+            margin: 10px 0;
+        }
+        .menu li a {
+            text-decoration: none;
+            color: #2e8b57;
+            font-weight: bold;
+            display: block;
+            padding: 10px;
+            border: 1px solid #2e8b57;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .menu li a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .content {
+            padding: 20px;
+            width: 70%;
+            height: 100vh;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- HENDRIYAWAN-->
+    <div class="header">
+        Wisata Bahari Yogyakarta
+    </div>
+    <iframe name="menu" src="menu.html" style="width: 30%; height: calc(100vh - 60px); float: left; border: none;"></iframe>
+    <iframe name="content" src="welcome.html" style="width: 70%; height: calc(100vh - 60px); float: left; border: none;"></iframe>
+</body>
+</html>

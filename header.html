@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            .header {
+                display: flex;
+                background-color: aquamarine;
+                color: #fff;
+            }
+
+            .logo {
+                width: 400px;
+                height: 100px;
+                position: relative;
+
+            }
+
+            .title {
+                text-align: end;
+                position: fixed;
+                right: 300px;
+                top: 32;
+
+            }
+
+            .subtitle {
+                text-align: end;
+                position: absolute;
+                right: 250px;
+                top: 55px;
+                padding-bottom: 32px;
+
+            }
+
+            .search-bar {
+                margin-top: 10px;
+                align-items: end;
+                position: fixed;
+                right: 10px;
+                top: 50px;
+            }
+
+            .container {
+                display: flex;
+            }
+
+            .sidebar-left {
+                flex: 1;
+                background-color: beige;
+                padding: 20px;
+            }
+
+            .sidebar-right {
+                flex: 1;
+                background-color: bisque;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <img src="header.png" alt="Logo" class="logo">
+            <div class="title">
+                <h2>YOGYAKARTA-KU</h2>
+
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Cari"><button>Cari</button>
+            </div>
+        </div>
+    </body>
+</html>
